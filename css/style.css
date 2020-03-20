@@ -1,0 +1,175 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+
+}
+main{
+        background: rgb(255,122,122);
+        min-height: 700px;
+        color: #fff;
+        
+    
+}
+/* background overlay*/
+main .overlay{
+    position:absolute;
+    top: 0;
+    left:0 ;
+    width: 100%;
+     min-height: 700px;
+    background:  url(../img/bg-intro-desktop.png) ;
+}
+.row{
+   height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.row h1{
+    font-weight: 800;
+}
+
+#btn-1{
+    background: hsl(248, 32%, 49%) ;
+    color: #fff;
+   /* width: 25rem;*/
+    box-shadow: 0px 4px 3px rgba(62,60,73 ,0.5);
+    
+}
+#btn-1{
+    font-weight: 800;
+}
+
+#btn-1:hover{
+background-color: #6f66ae;
+}
+#btn-2{
+    margin-top: 1rem;
+    background: hsl(154, 59%, 51%);
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+#btn-2:hover{
+    background-color: #32b77e;
+}
+
+ .input-3::placeholder{
+     color: var(--c, #495057);
+     
+ }
+#form{
+    /* width:25rem;*/
+     box-shadow: 0px 4px 3px rgba(62,60,73,0.5) ;
+     height: auto;
+     
+
+}
+
+
+
+.form-group{
+    margin-bottom: 0;
+
+}
+#last{
+    margin-bottom: 0.5rem;
+}
+.error{
+    font-size: 0.8rem;
+    margin-bottom: 0;
+}
+/* positoning the error icon*/
+.form-group{
+    position: relative;
+}
+.form-group img{
+    position: absolute ;
+    right: 0;
+    
+}
+#icon-error1 ,#icon-error2, #icon-error3,#icon-error4{
+    padding: 30px;
+    min-width: 50px;
+    display:none;
+
+    
+}
+
+
+
+#terms{
+     color: hsl(246, 25%, 77%);
+     font-size: x-small;
+}
+
+
+
+ #footer a{
+     color: #fff;
+ }
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+  
+   }
+  .attribution a { color: hsl(228, 45%, 44%); }
+
+
+  /* for small screens*/
+  @media only screen and  (max-width:500px){
+      
+      #cont-1{
+          text-align: center;
+        
+      }
+      main{
+          height: 1000px;
+      }
+      main .overlay{
+          height: 1000px;
+      }
+      .row{
+          margin: 0 auto;
+          
+          
+      }
+      .row .col-sm-6{
+          text-align: center;
+      }
+      .row .col-sm-6 h1{
+           font-size: 2rem;
+           margin-top: 2.5rem;
+           margin-bottom: 1.5rem;
+      }
+       #btn-1{
+          text-align: center;
+          padding:1rem;
+          border-radius:10px;
+      }
+      #btn-2 {
+         padding: 1.15rem;
+         border-radius:10px;
+          
+      }
+      #form{
+        border-radius:10px;
+        display: block;
+      }
+      .form-control{
+          padding: 1.8rem;
+          border-radius:10px;
+      }
+      #icon-error1 ,#icon-error2, #icon-error3,#icon-error4{
+        padding: 40px;
+       
+    
+        
+    }
+   
+     
+  }
