@@ -34,7 +34,6 @@ main .overlay{
 #btn-1{
     background: hsl(248, 32%, 49%) ;
     color: #fff;
-   /* width: 25rem;*/
     box-shadow: 0px 4px 3px rgba(62,60,73 ,0.5);
     
 }
@@ -63,7 +62,7 @@ background-color: #6f66ae;
      
  }
 #form{
-    /* width:25rem;*/
+   
      box-shadow: 0px 4px 3px rgba(62,60,73,0.5) ;
      height: auto;
      
@@ -73,15 +72,20 @@ background-color: #6f66ae;
 
 
 .form-group{
-    margin-bottom: 0;
+    margin-bottom: 11px;
+    
 
 }
-#last{
-    margin-bottom: 0.5rem;
+
+input:focus{
+    outline: none;
 }
-.error{
-    font-size: 0.8rem;
-    margin-bottom: 0;
+.form-group small{
+ color:hsl(0, 100%, 74%) ;
+  position: absolute;
+  bottom: -24px;
+  right: 0;
+ text-align: right;
 }
 /* positoning the error icon*/
 .form-group{
@@ -90,6 +94,7 @@ background-color: #6f66ae;
 .form-group img{
     position: absolute ;
     right: 0;
+
     
 }
 #icon-error1 ,#icon-error2, #icon-error3,#icon-error4{
